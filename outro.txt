@@ -1,1 +1,4 @@
+DADOS ESCRITOS POR: GIT COMMANDS (PRINCIPAL)
+______________________________________________
+
 ADICIONANDO UMA LINHA DE CONTEÚDO NO ARQUIVO
