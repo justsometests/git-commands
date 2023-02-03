@@ -1,0 +1,2 @@
+Resolvendo o bug na página de cadastro durante a validação de dados
+do formulário pelo lado do cliente
