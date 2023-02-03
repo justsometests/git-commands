@@ -1,1 +1,0 @@
-Foi resolvido o bug na parte de cadastro
