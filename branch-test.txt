@@ -1,1 +1,3 @@
 Este arquivo está presente somente na branch test
+
+Outro conteúdo adicionado ao arquivo branch-test.txt
