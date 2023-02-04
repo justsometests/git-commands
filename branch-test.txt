@@ -1,0 +1,1 @@
+Este arquivo está presente somente na branch test
