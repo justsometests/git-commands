@@ -14,3 +14,5 @@ const data = {
   },
   required: ["productId", "productName"],
 };
+
+console.log(data);
