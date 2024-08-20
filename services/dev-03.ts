@@ -1,6 +1,6 @@
 export function invertNumber(value: number): number {
   const stack: number[] = [];
-  let currentValue = value;
+  let currentValue = Math.abs(value);
 
   if (value === 0) {
     return value;
@@ -15,7 +15,7 @@ export function invertNumber(value: number): number {
     currentValue += stack[i] * 10 ** (stack.length - 1 - i);
   }
 
-  return currentValue;
+  return value > 0 ? currentValue : currentValue * -1;
 }
 
 export function invertString(value: string): string {
