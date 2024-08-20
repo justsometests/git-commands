@@ -1,4 +1,4 @@
-function invertNumber(value: number): number {
+export function invertNumber(value: number): number {
   const stack: number[] = [];
   let currentValue = value;
 
@@ -18,7 +18,7 @@ function invertNumber(value: number): number {
   return currentValue;
 }
 
-function invertString(value: string): string {
+export function invertString(value: string): string {
   const stack: string[] = [];
   let result = "";
 
