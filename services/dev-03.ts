@@ -17,3 +17,18 @@ function invertNumber(value: number): number {
 
   return currentValue;
 }
+
+function invertString(value: string): string {
+  const stack: string[] = [];
+  let result = "";
+
+  for (let i = 0; i < value.length; i++) {
+    stack.push(value[i]);
+  }
+
+  for (let i = 0; i < value.length; i++) {
+    result += stack.pop();
+  }
+
+  return result;
+}
